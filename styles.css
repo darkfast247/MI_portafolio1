@@ -1,0 +1,19 @@
+.navbar {
+    grid-template-columns: 1fr auto;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s; 
+    z-index: 1000;
+}
+
+
+.carousel-indicators{
+    filter: invert(100%);
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
