@@ -7,7 +7,6 @@
     z-index: 1000;
 }
 
-
 .carousel-indicators{
     filter: invert(100%);
 }
@@ -15,5 +14,43 @@
 .carousel-control-prev-icon, 
 .carousel-control-next-icon {
     filter: invert(100%);
+}
+
+
+#skills .progress {
+    height: 30px; 
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+}
+
+
+#skills .bg-primary {
+    background-color: #007bff !important; 
+}
+
+#skills .bg-dark {
+    background-color: #343a40 !important;
+}
+
+#skills .bg-danger {
+    background-color: #dc3545 !important; 
+}
+
+#skills .bg-success {
+    background-color: #28a745 !important; 
+}
+
+#skills .bg-info {
+    background-color: #17a2b8 !important; 
+}
+
+#skills .bg-warning {
+    background-color: #ffc107 !important; 
+}
+
+
+#skills .progress-bar {
+    font-size: 16px; 
+    font-weight: bold; 
 }
 
